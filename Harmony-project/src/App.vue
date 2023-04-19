@@ -29,7 +29,7 @@ export default {
 <div class="grid-rows-1 flex justify-center">
   <button class="btn bg-gradient-to-r from-green-400 to-blue-500 rounded p-5 mt-2 cursor-pointer
 
-  hover:transform hover:rotate-180 hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400
+  active:transform active:rotate-180 hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400
   " @click="num()">Click this to make the number below go up</button>
 </div>
 <div class="grid-rows-1 flex justify-center">
